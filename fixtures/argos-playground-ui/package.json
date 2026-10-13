@@ -1,0 +1,28 @@
+{
+  "name": "argos-playground-ui",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Simple Nuxt frontend for the Argos todo API",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "nuxt dev --port 3001",
+    "build": "nuxt build",
+    "preview": "nuxt preview --port 3001",
+    "check": "nuxt typecheck",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^4.11.3",
+    "nuxt": "^4.5.2",
+    "tailwindcss": "^4.1.0",
+    "vue": "^3.5.43",
+    "vue-router": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.3.12"
+  }
+}

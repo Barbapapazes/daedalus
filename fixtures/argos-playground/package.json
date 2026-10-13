@@ -1,0 +1,14 @@
+{
+  "name": "argos-playground",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Simple in-memory todo API for Argos demos",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "check": "node --check src/server.js && node --check src/todos.js"
+  }
+}

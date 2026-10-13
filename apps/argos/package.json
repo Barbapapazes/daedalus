@@ -1,0 +1,26 @@
+{
+  "name": "@daedalus/argos",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cf dev",
+    "build": "cf build",
+    "check": "cf workers types && tsc --noEmit",
+    "cf-typegen": "cf workers types"
+  },
+  "dependencies": {
+    "@cloudflare/computer": "0.4.0",
+    "@earendil-works/pi-ai": "^1.0.2",
+    "@earendil-works/pi-durable": "^1.0.2",
+    "@platformatic/vfs": "^0.5.0",
+    "agents": "^0.26.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "2.0.0-beta.sha-52b0dc0e9",
+    "@types/node": "^24.0.0",
+    "cf": "1.0.0-beta.12",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.2"
+  }
+}

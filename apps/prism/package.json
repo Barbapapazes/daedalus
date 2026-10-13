@@ -1,0 +1,31 @@
+{
+  "name": "@daedalus/prism",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "check": "nuxt typecheck",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@comark/nuxt": "^0.7.0",
+    "@nuxt/ui": "^4.11.3",
+    "@pinia/colada": "^1.4.7",
+    "@pinia/nuxt": "^1.0.2",
+    "@shikijs/langs": "^4.5.0",
+    "agents": "^0.26.0",
+    "nuxt": "^4.5.2",
+    "pinia": "^4.0.3",
+    "shiki": "^4.5.0",
+    "tailwindcss": "^4.1.0",
+    "vue": "^3.5.43",
+    "vue-router": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vue-tsc": "^3.3.12"
+  }
+}
